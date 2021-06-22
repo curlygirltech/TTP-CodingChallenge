@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .board{
   background-color: red;
+}
+.pin-card{
+  background-color: white;
+}
+.pin-card > img{
+  border-radius: 15px;
+}
+.username{
+  font-size: 30px;
 }
